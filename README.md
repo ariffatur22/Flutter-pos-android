@@ -53,3 +53,5 @@ flutter run
 Didistribusikan di bawah Lisensi MIT. Lihat LICENSE untuk informasi lebih lanjut.
 
 Dibuat dengan ❤️ oleh Ardeva
+
+Bisa kali bang kopi : 2063 0100 4049 501 BRi a.k.a Arif fatur rahman saleh
