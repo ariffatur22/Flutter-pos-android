@@ -4,9 +4,9 @@ class AppConstants {
   AppConstants._();
 
   static const String appName = 'FlutterPOS';
-  static const String supabaseUrl = 'https://riichhmpzmqiqgrmphpg.supabase.co';
+  static const String supabaseUrl = 'https://okeoke.supabase.co';
   static const String supabaseAnonKey =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJpaWNoaG1wem1xaXFncm1waHBnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY1ODEwNjMsImV4cCI6MjA5MjE1NzA2M30.56j7YGIhp7_R1_p_7eZJUIlfBs8fo0wihvWNgSiIeZ4';
+      '289347283742342jsdbasjb56j7YGIhp7_R1_p_7eZJUIlfBs8fo0wihvWNgSiIeZ4';
   static const double taxRate = 0.11;
   static const int pinLength = 4;
   static const String currency = 'Rp';
