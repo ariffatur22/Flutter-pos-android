@@ -1,0 +1,73 @@
+name: flutter_pos_kasir
+description: Aplikasi POS Kasir Multi-Platform (Android, Web, Desktop) - Offline First
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.10
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Database Lokal (Offline First)
+  sqflite: ^2.3.2
+  sqflite_common_ffi: ^2.3.2+1
+  path: ^1.9.0
+  path_provider: ^2.1.2
+
+  # Cloud Sync (Supabase)
+  supabase_flutter: ^2.3.4
+
+  # UI & Styling
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^8.0.2
+  cached_network_image: ^3.3.1
+  fl_chart: ^0.67.0
+  data_table_2: ^2.5.12
+  badges: ^3.1.2
+  shimmer: ^3.0.0
+
+  # Barcode Scanner
+  mobile_scanner: ^3.5.6
+
+  # Cetak Struk - Bluetooth ESC/POS
+  esc_pos_utils_plus: ^2.0.4
+  flutter_blue_plus: ^1.31.11
+  permission_handler: ^11.3.0
+
+  # Cetak PDF (Web/PC/Share)
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # Export Excel
+  syncfusion_flutter_xlsio: ^24.1.41
+  open_file: ^3.3.2
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  connectivity_plus: ^6.0.3
+  shared_preferences: ^2.2.3
+  image_picker: ^1.0.7
+  logger: ^2.2.0
+  equatable: ^2.0.5
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
